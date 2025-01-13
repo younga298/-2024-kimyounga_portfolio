@@ -3,7 +3,6 @@
 /* variables */
 /****/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-<<<<<<< HEAD
 @import url("https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css");
 * {
   cursor: url(../img/cursor.png), url(../img/cursor.png) 5 5, progress;
@@ -27,16 +26,10 @@ a {
   text-decoration: none;
 }
 
-=======
->>>>>>> ca6c4490739f13f92ec4e444446ab00bbc4faf4e
 #website-list {
   width: 100%;
   height: 920px;
   float: right;
-<<<<<<< HEAD
-=======
-  display: none;
->>>>>>> ca6c4490739f13f92ec4e444446ab00bbc4faf4e
 }
 #website-list #side-menubar {
   background: #dbdbdb;
@@ -494,49 +487,18 @@ a {
   float: right;
   width: 80%;
   height: 4000px;
-<<<<<<< HEAD
-  padding-left: 70px;
-=======
->>>>>>> ca6c4490739f13f92ec4e444446ab00bbc4faf4e
 }
 #website-list .website-list .lists {
   width: 4500px;
   position: sticky;
   top: 160px;
   display: flex;
+  padding-left: 60px;
 }
 #website-list .website-list .lists li {
   width: 800px;
   height: 800px;
 }
-<<<<<<< HEAD
-=======
-#website-list .website-list .lists li:nth-of-type(1) {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-#website-list .website-list .lists li:nth-of-type(2) {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-#website-list .website-list .lists li:nth-of-type(3) {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-#website-list .website-list .lists li:nth-of-type(4) {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-#website-list .website-list .lists li:nth-of-type(5) {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
->>>>>>> ca6c4490739f13f92ec4e444446ab00bbc4faf4e
 #website-list .website-list .lists .project-box {
   width: 690px;
   height: 507px;
@@ -661,12 +623,8 @@ a {
 #website-list .website-list .lists .project-box .detail-box .left-text .detail-button .button:hover {
   background-color: #fff;
 }
-<<<<<<< HEAD
 #website-list .website-list .lists .project-box .detail-box .left-text .detail-button .button:hover .neon-text,
 #website-list .website-list .lists .project-box .detail-box .left-text .detail-button .button:hover .neon-text1 {
-=======
-#website-list .website-list .lists .project-box .detail-box .left-text .detail-button .button:hover .neon-text, #website-list .website-list .lists .project-box .detail-box .left-text .detail-button .button:hover .neon-text1 {
->>>>>>> ca6c4490739f13f92ec4e444446ab00bbc4faf4e
   transform: translateY(20px);
 }
 #website-list .website-list .lists .project-box .detail-box .left-text .detail-button .button:not(:hover) .neon-text {
