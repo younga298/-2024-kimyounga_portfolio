@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import "var";
-// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 @import url("https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css");
 
@@ -26,7 +25,7 @@
         margin-left: 85px;
         margin-top: 50px;
         font-size: 43px;
-        font-family :$font-family;
+        font-family: $font-family;
         font-weight: bold;
         color: $light-gray;
     }
@@ -52,10 +51,10 @@
                 left: 0;
                 top: 0;
             }
-            
-          
 
-            &1 { 
+
+
+            &1 {
                 bottom: 0;
                 left: 0%;
 
@@ -104,14 +103,16 @@
                 }
             }
 
-            &5 {bottom: -200px;
+            &5 {
+                bottom: -200px;
+
                 .folder-content {
                     width: 603px;
                     height: 480px;
                     position: absolute;
                     left: 37%;
                     bottom: -47%;
-                    
+
                 }
             }
 
@@ -119,11 +120,20 @@
                 @include folder-position;
                 width: 100%;
             }
-            .skillimg{
-                width: 20%; margin-left: 79%;
+
+            .skillimg {
+                width: 20%;
+                margin-left: 79%;
             }
-            .side-img{width: 50%; margin-left: 50%;}
-            .img-margin-top{margin-top: 6%;}
+
+            .side-img {
+                width: 50%;
+                margin-left: 50%;
+            }
+
+            .img-margin-top {
+                margin-top: 6%;
+            }
         }
     }
 
